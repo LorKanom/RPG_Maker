@@ -11,8 +11,9 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, kanommod.MOD_ID);
 
-    public static final RegistryObject<Item> ALEXANDRITE = ITEMS.register("alexandrite",
+    public static final RegistryObject<Item> CARTAGALINHA = ITEMS.register("cartagalinha",
             () -> new Item(new Item.Properties()));
+
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

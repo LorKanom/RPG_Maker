@@ -2,7 +2,6 @@ package net.KanomMod.KanomsMod;
 
 import com.mojang.logging.LogUtils;
 import net.KanomMod.KanomsMod.item.ModItems;
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -50,8 +49,8 @@ public class kanommod
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
-        if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-             event.accept(ModItems.ALEXANDRITE);
+        if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {//mudar depois de arrumar aba
+             event.accept(ModItems.CARTAGALINHA);
         }
     }
 
