@@ -51,6 +51,10 @@ public class kanommod
     {
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {//mudar depois de arrumar aba
              event.accept(ModItems.CARTAGALINHA);
+             event.accept(ModItems.CARTAPORCO);
+             event.accept(ModItems.CARTAVACA);
+             event.accept(ModItems.CARTAOVELHA);
+
         }
     }
 
