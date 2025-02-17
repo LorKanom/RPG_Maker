@@ -1,0 +1,23 @@
+criando um item{
+  no ModItems.java dentro da "public class" coloque:
+    | public static final RegistryObject<Item> /*"nome do item todo em maiusculo"*/ = ITEMS.register("/*nome do item todo junto e em minusculo*/",  |
+    |   () -> new Item(new Item.Properties())); 
+
+|
+no kanommod.java dentro da "private void addCreative", dentro do "if" coloque:
+    |  event.accept(ModItems./*nome do item todo em maiusculo*/);   |
+
+dentro de resources/textures/item. coloque o png do item desejado. // n importa a quantidade de pixeis.
+  
+  dps crie um arquivo /*nome do item todo junto e minusculo*/.json
+  dentro do arquivo .json coloque:
+    |{
+    | "parent": "minecraft:item/generated",
+    | "textures": {
+    |   "layer0": "kanomsmod:item//*nome usando na foto que voce colocou nas texturas*/"
+    |    }
+    |  }
+
+em resources/lang abra o arquivo en_us.json e coloque
+  | "item.kanomsmod./*nome do item todo junto e em minusculo*/": "nome que voce quer q apareça no jogo"
+}
