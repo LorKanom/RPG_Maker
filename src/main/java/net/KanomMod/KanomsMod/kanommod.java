@@ -54,6 +54,8 @@ public class kanommod
              event.accept(ModItems.CARTAPORCO);
              event.accept(ModItems.CARTAVACA);
              event.accept(ModItems.CARTAOVELHA);
+             event.accept(ModItems.MITHRALINGOT);
+             event.accept(ModItems.MITHRALRAW);
 
         }
     }
