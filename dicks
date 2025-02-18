@@ -46,3 +46,26 @@ criando um blocp {
         |    "parent" : "kanomsmod:block//*nome do seu bloco*/"
         |}
 }
+receitas
+{
+    ok, esse é muito facil, entao vai simplesmente um exemplo. dentro da pasta de receitas, crie um arquivo com o nome do item que vc pretende fazer
+    e cole esse codigo:
+    |{
+    |  "type": "minecraft:crafting_shaped", // isso define onde vem esse craft no caso mesa de trabalho
+    |  "category": "misc",
+    |  "key": {  // aki define os itens usados para craftar.
+    |    "A": {
+    |      "item": "kanomsmod:mithralingot"
+    |    }
+    |  },
+    |  "pattern": [ // aqui define a ordem em q os itens sao colocados. caso seja em outro canto fora da mesa de trabalho
+    |    "AAA",
+    |    "AAA",
+    |    "AAA"
+    |  ],
+    |  "result": {
+    |    "count": 1,
+    |    "id": "kanomsmod:bloco_de_mithril"
+    |  }
+    |}
+}
