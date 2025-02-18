@@ -1,15 +1,15 @@
 criando um item{
   no ModItems.java dentro da "public class" coloque:
-    | public static final RegistryObject<Item> /*"nome do item todo em maiusculo"*/ = ITEMS.register("/*nome do item todo junto e em minusculo*/",  |
+    | public static final RegistryObject<Item> /*"nome do item t0do em maiusculo"*/ = ITEMS.register("/*nome do item t0do junto e em minusculo*/",  |
     |   () -> new Item(new Item.Properties())); 
 
 |
 no kanommod.java dentro da "private void addCreative", dentro do "if" coloque:
-    |  event.accept(ModItems./*nome do item todo em maiusculo*/);   |
+    |  event.accept(ModItems./*nome do item t0do em maiusculo*/);   |
 
 dentro de resources/textures/item. coloque o png do item desejado. // n importa a quantidade de pixeis.
   
-  dps crie um arquivo /*nome do item todo junto e minusculo*/.json
+  dps crie um arquivo /*nome do item t0do junto e minusculo*/.json
   dentro do arquivo .json coloque:
     |{
     | "parent": "minecraft:item/generated",
@@ -19,5 +19,30 @@ dentro de resources/textures/item. coloque o png do item desejado. // n importa 
     |  }
 
 em resources/lang abra o arquivo en_us.json e coloque
-  | "item.kanomsmod./*nome do item todo junto e em minusculo*/": "nome que voce quer q apareça no jogo"
+  | "item.kanomsmod./*nome do item t0do junto e em minusculo*/": "nome que voce quer q apareça no jogo"
+}
+criando um blocp {
+    no ModBlocks.java dentro do public class coloque:
+        | public static final RegistryObject<Block> /*nome do seu bloco t0do em maiusculo */ = registerBlock(name: "/*nome do seu bloco t0do em minusculo*/",
+        | () -> new Block(BlockBehavior.Propeties.of()
+        | /*aqui pode ser colocado toda uma lista de dependencias só apertar . e procurar a que te agrada*/));
+
+    no arquivo kanommod.java coloque dentro da função de blocos criativo:
+        | event.accept(ModItens./*o nome do seu bloco t0do em maiusculo*/)
+
+    apos isso, coloque no lang, como ele deve ser nomeado dentro do jogo.
+    na pasta models/blocck crie um arquivo com o nome do seu bloco em minusculo.json e coloque:
+        | {
+        |    "variants" : {
+        |        "": {
+        |            "model" : "kanomsmod:block//*nome do seu bloco t0do minusculo*/"
+        |            }
+        |        }
+        |
+        |    }
+
+    na pasta models/item crie um arquivo.json com o msm nome e coloque:
+        | {
+        |    "parent" : "kanomsmod:block//*nome do seu bloco*/"
+        |}
 }

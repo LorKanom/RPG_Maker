@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "" : {
+      "model" : "kanomsmod:block/bloco_de_mithril"
+    }
+  }
+}
