@@ -1,6 +1,7 @@
 package net.KanomMod.KanomsMod;
 
 import com.mojang.logging.LogUtils;
+import net.KanomMod.KanomsMod.block.ModBlocks;
 import net.KanomMod.KanomsMod.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -34,6 +35,7 @@ public class kanommod
         MinecraftForge.EVENT_BUS.register(this);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -57,6 +59,9 @@ public class kanommod
              event.accept(ModItems.MITHRALINGOT);
              event.accept(ModItems.MITHRALRAW);
 
+        }
+        if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(ModBlocks.BLOCO_DE_MITHRIL);
         }
     }
 
