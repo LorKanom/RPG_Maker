@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "" : {
+      "model" : "kanomsmod:block/minerio_de_mithril"
+    }
+  }
+}

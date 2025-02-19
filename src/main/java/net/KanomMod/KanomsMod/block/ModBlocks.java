@@ -22,6 +22,10 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(4f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
 
+    public static final RegistryObject<Block> MINERIO_DE_MITHRIL = registerBlock("minerio_de_mithril",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(3f).requiresCorrectToolForDrops()));
+
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
         registerBlickItem(name, toReturn);
