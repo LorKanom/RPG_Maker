@@ -1,3 +1,13 @@
 {
-  "type": "minecraft:craft"
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+    "item": "kanomsmod:bloco_de_mithril"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "kanomsmod:mithralingot"
+  }
 }

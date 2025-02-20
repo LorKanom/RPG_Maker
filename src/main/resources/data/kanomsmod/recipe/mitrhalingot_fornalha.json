@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "coockingtime": 100,
+  "experience": 0.25,
+  "group": "mithral",
+  "ingredient": {
+    "item": "kanomsmod:mithralraw"
+  },
+  "result": {
+    "id": "kanomsmod:mithralingot"
+  }
+
+}

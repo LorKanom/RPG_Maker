@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "coockingtime": 80,
+  "experience": 0.25,
+  "group": "mithral",
+  "ingredient": {
+    "item": "kanomsmod:mithralraw"
+  },
+  "result": {
+    "id": "kanomsmod:mithralingot"
+  }
+}
