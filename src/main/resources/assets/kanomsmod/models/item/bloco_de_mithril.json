@@ -1,3 +1,6 @@
 {
-  "parent": "kanomsmod: block/bloco_de_mithril"
+  "parent" : "minecraft:block/cube_all",
+  "textures" : {
+    "all" : "kanomsmod:block/bloco_de_mithril"
+  }
 }

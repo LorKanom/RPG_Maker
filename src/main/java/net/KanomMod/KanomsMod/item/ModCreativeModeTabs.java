@@ -31,6 +31,10 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.CARTAOVELHA.get());
                         output.accept(ModItems.CARTAPORCO.get());
                         output.accept(ModItems.CARTAVACA.get());
+                        output.accept(ModItems.CARTAARANHA.get());
+                        output.accept(ModItems.CARTACREEPER.get());
+                        output.accept(ModItems.CARTAESQUELETO.get());
+                        output.accept(ModItems.CARTAZUMBI.get());
 
                     }).build());
 
