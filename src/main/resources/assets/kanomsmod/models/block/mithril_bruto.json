@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "" : {
+      "model" : "kanomsmod:block/mithril_bruto"
+    }
+  }
+}

@@ -8,9 +8,9 @@
   "item.kanomsmod.cartazumbi": "Carta Zumbi",
 
   "item.kanomsmod.mithralingot": "Barra de Mithril",
-  "item.kanomsmod.mithralraw": "Minério de Mithril",
-
-
+  "item.kanomsmod.mithralraw": "Mithril",
+  "block.kanomsmod.minerio_deepslate_de_mithril": "Minerio de mithril deepslate", // arrumar o nome dps.
+  "block.kanomsmod.mithril_bruto": "Mithril bruto",
   "block.kanomsmod.bloco_de_mithril" : "Bloco de Mithril",
   "block.kanomsmod.minerio_de_mithril" : "Minerio de Mithril",
 

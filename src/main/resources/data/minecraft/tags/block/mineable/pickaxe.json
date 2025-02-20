@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "kanomsmod:bloco_de_mithril"
+    "kanomsmod:bloco_de_mithril",
+    "kanomsmod:minerio_deepslate_de_mithril",
+    "kanomsmod:minerio_de_mithril",
+    "kanomsmod:mithril_bruto"
   ]
 }

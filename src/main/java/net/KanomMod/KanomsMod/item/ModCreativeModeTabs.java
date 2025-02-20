@@ -1,5 +1,6 @@
 package net.KanomMod.KanomsMod.item;
 
+import net.KanomMod.KanomsMod.block.ModBlocks;
 import net.KanomMod.KanomsMod.kanommod;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
@@ -19,6 +20,10 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.MITHRALINGOT.get());
                         output.accept(ModItems.MITHRALRAW.get());
+                        output.accept(ModBlocks.BLOCO_DE_MITHRIL.get());
+                        output.accept(ModBlocks.MINERIO_DE_MITHRIL.get());
+                        output.accept(ModBlocks.MINERIO_DE_DEEPSLATE_MITHRIL.get());
+                        output.accept(ModBlocks.MITHRIL_BRUTO.get());
 
                     }).build());
 
