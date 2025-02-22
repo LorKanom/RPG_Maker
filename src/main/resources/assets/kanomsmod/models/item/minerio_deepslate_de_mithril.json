@@ -1,6 +1,6 @@
 {
   "parent" : "minecraft:block/cube_all",
   "textures" : {
-    "all" : "kanomsmod:block/minerio_de_mithril"
+    "all" : "kanomsmod:block/minerio_deepslate_de_mithril"
   }
 }
