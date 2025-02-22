@@ -1,7 +1,6 @@
 {
-  "variants": {
-    "" : {
-      "model" : "kanomsmod:block/mithril_bruto"
-    }
+  "parent" : "minecraft:block/cube_all",
+  "textures" : {
+    "all" : "kanomsmod:block/mithril_bruto"
   }
 }
